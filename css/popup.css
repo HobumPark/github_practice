@@ -1,0 +1,40 @@
+#popup{
+    width:500px;
+    height:500px;
+    /* background-color: indigo; */
+    position: fixed;
+    z-index: 9;
+
+    left:100px;
+    top:50px;
+
+    border:1px solid #333333;
+    box-sizing:border-box;
+    background-color: #ffffff;
+
+    display:none;
+}
+
+#popup-img{
+    width:500px;
+    height:450px;
+    /* background-color: indianred; */
+}
+
+#popup-img>img{
+    width:100%;
+    height:100%;
+}
+
+#popup-btn{
+    width:500px;
+    height:50px;
+    /* background-color: olive; */
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#popup-btn>button{
+    float:right;
+    cursor: pointer;
+}
